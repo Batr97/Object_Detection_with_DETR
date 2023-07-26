@@ -24,3 +24,12 @@
 
 <img src="report/pytest.png" alt="Example Image" width="724">
 
+Используется докер образ для запуска сервиса, чтобы его запустить необходимо использовать команду: 
+```
+docker build -t object_detection:latest .
+```
+
+Далее, для того чтобы запустить контейнер, необходимо ввести команду: 
+```
+docker run -p 7329:8000  --network host -it object_detection:latest bash
+```
