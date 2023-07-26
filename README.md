@@ -4,7 +4,7 @@
 Файлы: 
 - `scripts/val_data_generation.py` - создание датасета для валидации с помощью COCOAPI по файлу с аннотациями
 - `notebooks/inference.ipynb` - Ноутбук содержит инференс модели
-- `notebooks/cloud_ru_contest.ipynb` - Процесс обучения модели
+- `notebooks/Training.ipynb` - Процесс обучения модели
 - `app/models/DERT_object_detection.py` - Класс с инициализацией модели и прогнозом
 - `app/main.py` - FastAPI app
 - `app/test_app.py` - Тесты для проверки работоспособности и замера среднего времени выполнения программы
