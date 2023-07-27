@@ -33,3 +33,8 @@ docker build -t object_detection:latest .
 ```
 docker run -p 7329:8000  --network host -it object_detection:latest bash
 ```
+
+Для поднятия сервиса внутри контейнера запустить команду:
+```
+python -m uvicorn main:app --host 0.0.0.0 --port 8000
+```
