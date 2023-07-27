@@ -31,7 +31,7 @@ docker build -t object_detection:latest .
 
 Далее, для того чтобы запустить контейнер, необходимо ввести команду: 
 ```
-docker run -p 7329:8000  --network host -it object_detection:latest bash
+docker run -p 8000:8000 -it object_detection:latest bash
 ```
 
 Для поднятия сервиса внутри контейнера запустить команду:
